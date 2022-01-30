@@ -73,18 +73,13 @@
             </div>
         </div>
 
-        <div align="center">
-            <table>
-                <tr>
-                    <td>
+        <div style="display:flex; justify-content:space-around">
+            
+                
                         <asp:Button ID="btnRegistrar" runat="server" CssClass="btn btn-primary" Width="200px" Text="Registrar" OnClick="btnRegistrar_Click"/>
-                    </td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td>
+                   
                         <asp:Button ID="btnCancelar" runat="server" CssClass="btn btn-danger" Width="200px" Text="Cancelar" />
-                    </td>
-                </tr>
-            </table>
+                 
         </div>
         <br />
         <!-- Datatable Part -->

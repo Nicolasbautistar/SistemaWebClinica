@@ -129,6 +129,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown user user-menu no-cursor">
+                        <a>
+                            <i class="glyphicon glyphicon-user"></i>
+                            <span id="close">Cerrar Sesión</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <!--END CABECERA-->
     </header>
@@ -157,12 +167,20 @@
                             <span>Registro de paciente</span>
                         </a>
                     </li>
-                    <li>
+
+                    <li class="treeview">
                         <a href="#">
                             <i class="fa fa-th"></i>
-                            <span>Reserva de Citas</span>
+                            <span>Horarios</span>
+                            <i class="fa fa-angle-left pull-right"></i>
                         </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="GestionarHorarioAtencion.aspx"><i class="fa fa-angle-double-right"></i>Horarios Médicos</a>
+                            </li>
+                        </ul>
                     </li>
+                   
                 </ul>
             </section>
         </aside>
