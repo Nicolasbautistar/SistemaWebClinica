@@ -23,7 +23,7 @@
                     <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" placeholder="Ingrese clave..." TextMode="Password"></asp:TextBox>
                 </div>
             </div>
-            <div class="footer">
+            <div class="footer" style="display:flex; justify-content:center;">
                 <asp:Button ID="btnIngresar" runat="server" Text="Inicar Sesión" CssClass="btn bg-olive btn-block" OnClick="btnIngresar_Click" />
             </div>
         </form>

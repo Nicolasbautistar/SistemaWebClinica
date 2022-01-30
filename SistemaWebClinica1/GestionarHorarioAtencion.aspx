@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="GestionarHorarioAtencion.aspx.cs" Inherits="SistemaWebClinica1.GestionarHorarioAtencion" ClientIDMode="Static" %>
 
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="css/timepicker/bootstrap-timepicker.min.css" rel="stylesheet" />
 </asp:Content>
@@ -49,11 +50,12 @@
                         <table id="tbl_horarios" class="table table-bordered table-hover">
                             <thead>
                                 <tr>
-                                    <th></th>
-                                    <th></th>
-                                    <th></th> <!-- contenedor del id -->  
                                     <th>FECHA DE ATENCIÓN</th>
                                     <th>HORA DE ATENCIÓN</th>
+                                    <th></th> <!-- contenedor del id -->  
+                                    <th>Acciones</th>
+                                    
+                                  
                                 </tr>
                             </thead>
                             <tbody id="tbl_body_table">
@@ -61,8 +63,11 @@
                         </table>
                     </div>
                     <div class="box-footer" style="text-align: center">
-                        <asp:Button ID="btnAgregarHorario" runat="server" CssClass="btn btn-primary" Text="Agregar Horario" />
-                        
+                      <button type="button" id="btnAgregarHorario" class="btn btn-primary" href="#AgregarHorario" data-toggle="modal">Agregar Horario</button>
+
+                        <%--<input type="button" ID="btnAgregarHorario"  class="btn btn-primary" href="#AgregarHorario" data-toggle="modal" /> --%>
+                        <%--<asp:LinkButton ID="btnAgregarHorario" runat="server" CssClass="btn btn-primary" href="#AgregarHorario" data-toggle="modal">Agregar Horario</asp:LinkButton>--%>
+
                         <%--<asp:Button ID="btnGuardarHorario" runat="server" CssClass="btn btn-success" Text="Guarda Horario" />--%>
                     </div>
                 </div>
@@ -70,7 +75,7 @@
         </div>
     </section>
 
-    <div class="modal fade" id="AgregarHorario" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal" id="AgregarHorario" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -101,14 +106,15 @@
                     </div>
                 </div>
                 <div class="modal-footer clearfix">
-                    <asp:Button ID="btnAgregar" runat="server" CssClass="btn btn-primary" Text="Agregar" />
+                    <asp:Button ID="btnAgregar" runat="server" CssClass="btn btn-primary" data-dismiss="modal" Text="Agregar" />
                 </div>
             </div>
         </div>
     </div>
 
+
     <!-- Modal para actualizar información de horario de atención -->
-    <div class="modal fade" id="imodal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal" id="imodal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">

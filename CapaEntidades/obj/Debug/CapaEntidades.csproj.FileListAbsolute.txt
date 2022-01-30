@@ -1,6 +1,5 @@
 C:\Users\User\source\repos\SistemaWebClinica1\CapaEntidades\bin\Debug\CapaEntidades.dll
 C:\Users\User\source\repos\SistemaWebClinica1\CapaEntidades\bin\Debug\CapaEntidades.pdb
-C:\Users\User\source\repos\SistemaWebClinica1\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
 C:\Users\User\source\repos\SistemaWebClinica1\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\SistemaWebClinica1\CapaEntidades\obj\Debug\CapaEntidades.dll
 C:\Users\User\source\repos\SistemaWebClinica1\CapaEntidades\obj\Debug\CapaEntidades.pdb

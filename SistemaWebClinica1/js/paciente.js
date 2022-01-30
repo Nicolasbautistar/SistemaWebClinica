@@ -26,8 +26,8 @@ function addRowDT(data) {
             ((data[i].Sexo == 'M') ? "Masculino" : "Femenino"),
             data[i].Edad,
             data[i].Direccion,
-            '<button type="button" value="Actualizar" title="Actualizar" class="btn btn-primary btn-edit" data-target="#imodal" data-toggle="modal"><i class="fa fa-check-square-o" aria-hidden="true"></i></button>&nbsp;' +
-            '<button type="button" value="Eliminar" title="Eliminar" class="btn btn-danger btn-delete"><i class="fa fa-minus-square-o" aria-hidden="true"></i></button>'
+            '<button type="button" value="Actualizar" title="Actualizar" class="btn btn-primary btn-edit" data-target="#imodal" data-toggle="modal"><i class="fas fa-edit"></i></button>&nbsp;' +
+            '<button type="button" value="Eliminar" title="Eliminar" class="btn btn-danger btn-delete"><i class="fas fa-trash-alt"></i></button>'
 
         ]);
     }
