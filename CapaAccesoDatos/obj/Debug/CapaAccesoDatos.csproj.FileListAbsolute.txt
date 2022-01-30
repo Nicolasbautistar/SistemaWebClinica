@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\SistemaWebClinica1\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\User\source\repos\SistemaWebClinica1\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\User\source\repos\SistemaWebClinica1\CapaAccesoDatos\bin\Debug\CapaEntidades.dll
+C:\Users\User\source\repos\SistemaWebClinica1\CapaAccesoDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\User\source\repos\SistemaWebClinica1\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csprojAssemblyReference.cache
+C:\Users\User\source\repos\SistemaWebClinica1\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SistemaWebClinica1\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
+C:\Users\User\source\repos\SistemaWebClinica1\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\Users\User\source\repos\SistemaWebClinica1\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
