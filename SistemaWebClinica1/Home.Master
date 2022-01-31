@@ -167,6 +167,12 @@
                             <span>Registro de paciente</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="GestionarReservaCitas.aspx">
+                            <i class="fa fa-th"></i>
+                            <span>Reserva de Citas</span>
+                        </a>
+                    </li>
 
                     <li class="treeview">
                         <a href="#">
@@ -184,7 +190,7 @@
                 </ul>
             </section>
         </aside>
-        <aside class="right-side">
+       <aside class="right-side">
             <section class="content-header">
                 <h1>
                     <asp:Label ID="lblOpcionMenu" runat="server" Text="Panel General"></asp:Label>
@@ -192,10 +198,11 @@
             </section>
             <section class="content">
                 <form id="form1" runat="server">
+                    <asp:ScriptManager ID="scriptManager" runat="server">
+                    </asp:ScriptManager>
                     <div>
                         <asp:ContentPlaceHolder ID="contentBody" runat="server">
-                            
-                            <!--CARGAR EL DISEÑO DE LA PAGINA QUE HERADAMOS-->
+                            <!-- CARGAR EL DISEÑO DE LA PAGINA QUE HEREDA DE MASTER PAGE-->
                         </asp:ContentPlaceHolder>
                     </div>
                 </form>

@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CitaDAO.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="EmpleadoDAO.cs" />
+    <Compile Include="EspecialidadDAO.cs" />
     <Compile Include="HorarioAtencionDAO.cs" />
     <Compile Include="MedicoDAO.cs" />
     <Compile Include="PacienteDAO.cs" />
